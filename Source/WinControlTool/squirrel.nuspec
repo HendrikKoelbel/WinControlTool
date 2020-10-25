@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>WinControlTool</id>
+		<version>0.0.1</version>
+		<authors>Hendrik Kölbel</authors>
+		<owners>Hendrik Kölbel</owners>
+		<description>Control Tool for Windows - by Hendrik Kölbel</description>
+		<releaseNotes>Initial release.</releaseNotes>
+		<copyright>Copyright © Hendrik Kölbel 2020</copyright>
+	</metadata>
+	<files>
+		<file src="..\..\Build\Release\*.*" target="lib\net48\" exclude="*.pdb;*.vshost.*;settings.json"/>
+	</files>
+</package>

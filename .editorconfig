@@ -1,0 +1,4 @@
+[*.cs]
+
+# CS8632: Die Anmerkung für Nullable-Verweistypen darf nur in Code innerhalb eines #nullable-Anmerkungskontexts verwendet werden.
+dotnet_diagnostic.CS8632.severity = none
